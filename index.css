@@ -1,0 +1,37 @@
+.btn{
+   color: aqua;
+   background-color:white;
+   border:none;
+   width: 100px;
+  
+   border-radius: 50px;
+   gap: 50px;
+   padding: 10px 10px 10px 10px;
+   font-weight: bold;
+   font-size: 25px;
+   
+}
+#keys{
+   max-width: 500px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 10px;
+   padding: 25px;
+}
+#calcbody{
+    background-color: bisque;
+    border-radius: 15px;
+    max-width: 500px;
+
+}
+#display{
+    width: 400px;
+    height: 100px;
+    background-color: bisque;
+    padding: 20px;
+    text-align: left;
+    border: none;
+    font-size: 5rem;
+    color: black;
+
+}
